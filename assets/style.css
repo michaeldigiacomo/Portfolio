@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 8px;
+    margin: 8px;
 }
 
 body {
@@ -16,16 +16,27 @@ header {
     background-color: rgb(201, 201, 201);
 }
 
+.header div {
+    color: black;
+}
+
 .content {
     padding: 20px;
-    font-family: Helvetica;
-    font-size: smaller;
+
 }
 
 h2 {
     color: rgb(105, 105, 105);
+    text-align: left;
+}
+
+.parts {
+    color: black;
+    font-family: Helvetica;
+    font-size: smaller;
 }
 
 footer {
+    text-align: center;
     background-color: rgba(0, 89, 255, 0.281);
 }
