@@ -17,7 +17,12 @@ header {
 }
 
 .header div {
-    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
 }
 
 .content {
