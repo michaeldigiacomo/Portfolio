@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(238, 238, 238, 0.548);
+    background-color: rgba(255, 255, 255, 0.425);
 }
 
 header {
@@ -13,12 +13,14 @@ header {
     padding-bottom: 7px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(201, 201, 201);
+    background-color: rgba(255, 0, 0, 0.37);
 }
 
 .header div {
     display: flex;
     justify-content: flex-end;
+    font-size: 22px;
+    color: rgba(255, 0, 0, 0.37);
 }
 
 a {
@@ -26,13 +28,30 @@ a {
 }
 
 .content {
-    padding: 20px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+    
+#list-one li {
+    display: inline;
+}
 
+#list-two li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+#about-me, #education, #experience, #contact-me {
+    border: dashed;
+    border-color: rgb(255, 0, 0);
 }
 
 h2 {
-    color: rgb(105, 105, 105);
+    color: black;
     text-align: left;
+    font-size: xx-large;
 }
 
 .parts {
@@ -43,5 +62,5 @@ h2 {
 
 footer {
     text-align: center;
-    background-color: rgba(0, 89, 255, 0.281);
+    background-color: rgba(255, 0, 0, 0.534);
 }
