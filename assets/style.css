@@ -11,9 +11,10 @@ header {
     padding-top: 7px;
     padding-bottom: 7px;
     text-align: center;
+    font-size: 30px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(20, 10, 104, 0.664);
+    background-color: rgba(48, 138, 223, 0.74);
 }
 
 .header div {
@@ -27,8 +28,8 @@ header {
 
 img {
     border-radius: 50%;
-    height: 275px;
-    width: 260px;
+    height: 280px;
+    width: 240px;
     border: solid;
 }
 
@@ -56,22 +57,32 @@ a {
 
 #about-me, #education-and-experience, #my-projects, #contact-me {
     border: dashed;
-    border-color: rgb(38, 0, 255);
+    border-color: rgba(0, 132, 255, 0.87);
 }
 
 h2 {
     color: black;
-    text-align: left;
+    text-align: center;
     font-size: xx-large;
 }
 
 .parts {
     color: black;
     font-family: Helvetica;
-    font-size: smaller;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+#my-projects {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#contact-me, {
+    text-align: center;
 }
 
 footer {
     text-align: center;
-    background-color: rgba(20, 10, 104, 0.664);
+    background-color: rgba(50, 146, 211, 0.664);
 }
