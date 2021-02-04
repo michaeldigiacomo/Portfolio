@@ -1,1 +1,3 @@
 # Portfolio
+
+Here you can find both an HTML and CSS file containing the contents of my portfolio.  My portfolio contains four sections, and About me, education and experience, my projects, and finally a contact me section.  As this portfolio seems unfinished due to the my lack of projects, I will come back in the future and add my work to those areas when I have projects completed. This page also contains a header with my name, links to all areas of my page, and a picture of me.  There is also a footer.
